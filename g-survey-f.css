@@ -1,0 +1,148 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 10px;
+  color: #E98B38;
+  margin: 0;
+}
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-color: lightblue;
+  background-image: linear-gradient(to bottom right, rgba(201,36,36, 0.2),rgba(147,21,21, 0.5)),url(https://gamingcentral.in/wp-content/uploads/2013/12/games_of_2013_wallpaper_by_sakis25_by_sakis25-d5m89m5-1050x600.jpg);
+
+   
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+h1,
+p {
+  margin-top: 15px;
+  margin-bottom: 7px;
+}
+
+h1 {
+  font-weight: bold;
+  line-height: 15px;
+  font-size: 50px;
+  position: relative;
+  top: 50px
+}
+
+p {
+  font-size: 20px;
+}
+
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input,
+button,
+select,
+textarea {
+ 
+  
+  margin-top: 5px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  border: none;
+  margin-top:10px; 
+}
+
+.container {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
+header {
+  padding: 0 20px;
+  margin-bottom: 1.875rem;
+  text-align: center;
+  color: rgb(220,233,220);
+}
+.main-form{
+	width: 70%;
+	border:1px solid #4D85B8;
+	position: relative;
+	left: 200px;
+	top: 100px;
+	background-color: rgba(56,174,213,0.4);
+}
+form {
+
+  background: var(--color-darkblue-alpha);
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+}
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+.form-data {
+  display: block;
+  width: 90%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-data:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 90%;
+  padding: 0.625rem;
+  resize: vertical;
+}
+
+.submit-btn {
+  display: block;
+  width: 95%;
+  padding: 0.75rem;
+  background: #3CE938;
+  color: white;
+  font-weight: bold;
+  font-variant: small-caps;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.footer{
+	display: block;
+	position: relative;
+	top: 100px;
+	
+	background-color: rgba(201,36,36, 0.8);
+
+}
